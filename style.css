@@ -126,7 +126,7 @@ body {
     .carousel {
         position: relative;
         top: -182px;
-        max-width: 480px;
+        max-width: 580px;
     }
     .uquvchi {
         display: none;
@@ -153,5 +153,44 @@ body {
     }
     .bg2 {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel {
+        position: relative;
+        top: -182px;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .uquvchi {
+        display: none;
+    }
+    .uquvchi1 {
+        display: none;
+    }
+    .uquvchi2 {
+        display: block;
+        max-width: 340px;
+        position: absolute;
+        top: 576px;
+        right: 50px;
+    }
+    .hero--wrapper {
+        position: absolute;
+        top: 0;
+    }
+    .bg {
+        display: none;
+    }
+    .bg1 {
+        display: none;
+    }
+    .bg2 {
+        display: block;
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        height: 1000px;
     }
 }
