@@ -2,6 +2,12 @@ body {
     overflow-x: hidden;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 11111111111;
+}
+
 .hero {
     border-radius: 20px;
     background-position: center;
