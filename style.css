@@ -1,16 +1,29 @@
+body {
+    overflow-x: hidden;
+}
+
 .hero {
-    background-image: url(./imges/Background.png);
-    background-repeat: no-repeat;
     border-radius: 20px;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    top: 82px;
+}
+
+.hero1 {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.uquvchi {
+    position: absolute;
+    top: 100px;
+    right: 125px;
 }
 
 .hero--wrapper {
+    position: absolute;
+    top: 0;
     padding-top: 216px;
     padding-left: 76px;
     padding-bottom: 217px;
@@ -57,11 +70,21 @@
     display: none;
 }
 
+.bg1 {
+    display: none;
+}
+
+.bg2 {
+    display: none;
+}
+
 .uquvchi2 {
     display: none;
 }
 
 .carousel {
+    position: relative;
+    top: -82px;
     padding: 97px;
     max-width: 1039px;
     width: 100%;
@@ -71,8 +94,6 @@
     border-radius: 35px;
     background-image: url(./imges/Vector.png);
 }
-
-.carousel-inner {}
 
 .carousel-control-next {
     top: 150px;
@@ -101,4 +122,36 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:992px) {}
+@media screen and (max-width:992px) {
+    .carousel {
+        position: relative;
+        top: -182px;
+        max-width: 480px;
+    }
+    .uquvchi {
+        display: none;
+    }
+    .uquvchi1 {
+        display: block;
+        position: absolute;
+        top: 376px;
+    }
+    .hero--wrapper {
+        position: absolute;
+        top: 0;
+    }
+    .bg {
+        display: none;
+    }
+    .bg1 {
+        position: relative;
+        display: block;
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        height: 1000px;
+    }
+    .bg2 {
+        display: none;
+    }
+}
