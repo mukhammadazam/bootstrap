@@ -1,5 +1,3 @@
-.section {}
-
 .hero {
     background-image: url(./imges/Background.png);
     background-repeat: no-repeat;
@@ -51,6 +49,7 @@
 }
 
 .carousel-inner {
+    padding: 97px;
     background-image: url(./imges/Vector.png);
     max-width: 1039px;
     width: 100%;
