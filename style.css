@@ -213,6 +213,10 @@ body {
     font-size: 36px;
 }
 
+.rows {
+    max-width: 570px;
+}
+
 @media screen and (max-width:768px) {
     .width {
         max-width: 360px;
@@ -222,6 +226,10 @@ body {
         width: 100%;
     }
     .wrapper-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cart {
         display: flex;
         flex-wrap: wrap;
     }
