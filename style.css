@@ -214,7 +214,8 @@ body {
 }
 
 .rows {
-    max-width: 570px;
+    max-width: 600px;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width:768px) {
@@ -233,4 +234,15 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+}
+
+.ss {
+    background: #96989c;
+    margin-top: 100px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.carousel-item {
+    margin-right: -1000%;
 }
